@@ -4,6 +4,17 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
 
+/* add an amazing animation that makes the social icons blue and larger on hover */
+img.socialIcon {
+  transition: transform 0.3s ease;
+}
+
+img.socialIcon:hover {
+  transform: scale(1.5);
+  filter: hue-rotate(180deg);
+}
+
+
 html,
 body {
   font-family: "Montserrat", sans-serif;
